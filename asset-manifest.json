@@ -1,13 +1,13 @@
 {
-  "main.css": "/cmdkern/static/css/main.231d6372.chunk.css",
-  "main.js": "/cmdkern/static/js/main.db0367f5.chunk.js",
-  "main.js.map": "/cmdkern/static/js/main.db0367f5.chunk.js.map",
-  "static/js/1.fab3d94b.chunk.js": "/cmdkern/static/js/1.fab3d94b.chunk.js",
-  "static/js/1.fab3d94b.chunk.js.map": "/cmdkern/static/js/1.fab3d94b.chunk.js.map",
-  "runtime~main.js": "/cmdkern/static/js/runtime~main.84bce0ff.js",
-  "runtime~main.js.map": "/cmdkern/static/js/runtime~main.84bce0ff.js.map",
-  "static/css/main.231d6372.chunk.css.map": "/cmdkern/static/css/main.231d6372.chunk.css.map",
-  "index.html": "/cmdkern/index.html",
-  "precache-manifest.43c0bc8bbd75660c0ec9a75f9430fce2.js": "/cmdkern/precache-manifest.43c0bc8bbd75660c0ec9a75f9430fce2.js",
-  "service-worker.js": "/cmdkern/service-worker.js"
+  "main.css": "ekern.me/static/css/main.231d6372.chunk.css",
+  "main.js": "ekern.me/static/js/main.db0367f5.chunk.js",
+  "main.js.map": "ekern.me/static/js/main.db0367f5.chunk.js.map",
+  "static/js/1.fab3d94b.chunk.js": "ekern.me/static/js/1.fab3d94b.chunk.js",
+  "static/js/1.fab3d94b.chunk.js.map": "ekern.me/static/js/1.fab3d94b.chunk.js.map",
+  "runtime~main.js": "ekern.me/static/js/runtime~main.14b90dd8.js",
+  "runtime~main.js.map": "ekern.me/static/js/runtime~main.14b90dd8.js.map",
+  "static/css/main.231d6372.chunk.css.map": "ekern.me/static/css/main.231d6372.chunk.css.map",
+  "index.html": "ekern.me/index.html",
+  "precache-manifest.6f37639d6cc4116bc9012620499b2fb6.js": "ekern.me/precache-manifest.6f37639d6cc4116bc9012620499b2fb6.js",
+  "service-worker.js": "ekern.me/service-worker.js"
 }
