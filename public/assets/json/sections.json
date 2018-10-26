@@ -1,0 +1,130 @@
+[
+  {
+    "minScreenWidth": 768,
+    "speed": 40,
+    "lines": [
+      "Press <ENTER> to speed up the animations"
+    ]
+  },
+  {
+    "maxScreenWidth": 767,
+    "speed": 40,
+    "lines": [
+      "Tap the screen to speed up the animations"
+    ]
+  },
+  {
+    "prefix": true,
+    "speed": 60,
+    "lines": [
+      "        ",
+      "        ",
+      "cat [green]bio[/green].txt"
+    ]
+  },
+  {
+    "speed": 15,
+    "lines": [
+      "Hi 🔥🤙🏼🤙🏼",
+      "My name is [bold]Erlend Gjesteland Ekern[/bold].", 
+      "I like [bold]technology. And music. And beer! And traveling ... and a lot of other stuff[/bold].",
+      "I currently study [bold]Computer Science[/bold] at the Norwegian University of Science and Technology.", 
+      "I am majoring in [bold]Artificial Intelligence[/bold] 🤖, and I will conclude my studies in 2019."
+    ]
+  },
+  {
+    "prefix": true,
+    "speed": 60,
+    "lines": [
+      "        ",
+      "        ",
+      "cat [blue]contact[/blue].txt"
+    ]
+  },
+  {
+    "speed": 20,
+    "lines": [
+      "Email: [email]erlend@ekern.me[/email]",
+      "GitHub: [url]https://www.github.com/stekern[/url]",
+      "LinkedIn: [url]https://www.linkedin.com/in/erlendekern[/url]"
+    ]
+  },
+  {
+    "prefix": true,
+    "minScreenWidth": 768,
+    "speed": 60,
+    "lines": [
+      "        ",
+      "        ",
+      "./png_to_ascii.sh [green]picture[/green].png"
+    ]
+  }, 
+  {
+    "minScreenWidth": 768,
+    "speed": 0,
+    "lines": [
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmmNmmdmdmNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMNmmdhyo//+ssosoohdmmmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMd::/+o::os/-:++:-//oohyhMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMh-....----:/:.----..--:/oMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMm+.`````..---....-://:://:/dMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMm+-.``...-:/+oosyhdmmddhhddhsmMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMmy-.`.//+osyhmmNNMMNNNmmmmmdyyNMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMy..:+syyhhdmmmmmmmmmmddmmmyoyMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMh../syhhhhhddddddmmmdddddho//mMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMd../syhdddmmmmmmmmmmmmNmmho:.sMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMNh..+oyhdhysoossyssoosyhhhdy+-+hNMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMh+/-sso+/:----:+s+:--..-:/sdh/+oNMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMm+//ys+/:::::-:yNh/::/+osyhdmy+hMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMNs/ssyhhhysssssdMmhyhhdmmmmddyhdMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMhyooyddmNNNdyymNNdhhmNNmmmdyohNMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMNds+syhhdddyosoyyososyhysosodNMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMy++ooosoo+:-:--:ss/+++/+oMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMN+++++/:/+-.---://-:o++/sMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMh//++:-:::::///++++++/-dMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMy:/++++++////osyys+:-/mMMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMd/:/ossssossyhhs+:.:sdNMMMMMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMd:-://++/////:---/shdmMdmNMMMMMMMMMMMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMMNs/:-.........-/+syhmNMy/oyhhdmmNNNNMMMMMMMMMMM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMMMMNNds++//::--:/+oosyhmNMMm-::::://+oosyhhdmNNNNNM",
+      "MMMMMMMMMMMMMMMMMMMMMMMMNmy/hmmhs++++++oooosydNNMNNm.-:::-.--:::///+ooosyyh",
+      "MMMMMMMMMMMMMMMMMMMMNmhs/-.`-hdmmdys+++++oydNNNNNmNm---:::-..-----::::::::/",
+      "MMMMMMMMMMMMMMMMNmhs+:-...```+mddmmmmh+-omNNNNNNNNmm/.-::::-....-----------",
+      "MMMMMMMMMMMMMNdy+:--......```-hmmmmmh-..-/yNNNNMNNMMs...--...........---...",
+      "MMMMMMMMMNmhs+:--........````-ydNNmd:-.-::-odNMMNMMMh......--..`....``.....",
+      "MMMMMNmdyo/:---.......`.`````-NNNNmyys:-.-/dhhdNNNNNm....-..-...`...````...",
+      "MMMMd+----...............```..dNNddNm+-..-/oNNNNMMMMN-.-...........`````...",
+      "MMMM+-....................``..hNNNNNh/-`-+/:NNMMMMMMN/..............`````.."
+    ]
+  },
+  {
+    "minScreenWidth": 768,
+    "prefix": true,
+    "speed": 60,
+    "lines": [
+      "        ",
+      "        ",
+      "cat [blue]credits[/blue].txt"
+    ]
+  },
+  {
+    "maxScreenWidth": 767,
+    "prefix": true,
+    "speed": 60,
+    "lines": [
+      "        ",
+      "        ",
+      "cat [green]credits[/green].txt"
+    ]
+  },
+  {
+    "speed": 15,
+    "lines": [
+      "Background: [url]https://subtlepatterns.com/stardust[/url]"
+    ]
+  }
+]
