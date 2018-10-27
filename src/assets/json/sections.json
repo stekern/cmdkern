@@ -124,7 +124,8 @@
   {
     "speed": 15,
     "lines": [
-      "Background: [url]https://subtlepatterns.com/stardust[/url]"
+      "Background: [url]https://subtlepatterns.com/stardust[/url]",
+      "GitHub logo: [url]https://github.com/tholman/github-corners[/url]"
     ]
   }
 ]
