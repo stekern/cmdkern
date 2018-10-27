@@ -81,6 +81,7 @@ class Typewriter extends React.Component {
         ))}
         {!finished && (
           <Linewriter
+            cursor={!('cursor' in section) || section.cursor}
             handleFinish={this.handleFinish}
             line={line}
             speed={speed > 0 ? Math.floor(this.speedDivider * speed) : speed}

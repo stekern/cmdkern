@@ -24,6 +24,7 @@
   },
   {
     "speed": 15,
+    "cursor": false,
     "lines": [
       "Hi 🔥🤙🏼🤙🏼",
       "My name is [bold]Erlend Gjesteland Ekern[/bold].", 
@@ -42,6 +43,7 @@
     ]
   },
   {
+    "cursor": false,
     "speed": 20,
     "lines": [
       "Email: [email]erlend@ekern.me[/email]",
@@ -60,6 +62,7 @@
     ]
   }, 
   {
+    "cursor": false,
     "minScreenWidth": 768,
     "speed": 0,
     "lines": [
@@ -122,6 +125,7 @@
     ]
   },
   {
+    "cursor": false,
     "speed": 15,
     "lines": [
       "Background: [url]https://subtlepatterns.com/stardust[/url]",

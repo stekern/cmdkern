@@ -66,6 +66,10 @@ a {
   padding-bottom: 2px;
 }
 
+.cursor {
+  background-color: lightgrey;
+}
+
 /* width */
 ::-webkit-scrollbar {
 	width: 8px;

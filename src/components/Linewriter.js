@@ -54,12 +54,13 @@ class Linewriter extends React.Component {
 
   render() {
     const { charIndex } = this.state
-    const { line, prefix } = this.props
-    // const outputLine = removeTags(line)
-    const outputLine = line
+    const { cursor, line, prefix } = this.props
+    const outputLine = removeTags(line)
+    // const outputLine = line
     return (
       <div className="terminal__line">
         {`${prefix ? '> ' : ''}${outputLine.substr(0, charIndex)}`}
+        {cursor && <span className="cursor">&nbsp;</span>}
       </div>
     )
   }
