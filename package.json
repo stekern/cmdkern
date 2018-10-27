@@ -1,6 +1,6 @@
 {
   "name": "homepage_playground",
-  "homepage": "ekern.me",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
