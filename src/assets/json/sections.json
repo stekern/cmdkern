@@ -17,8 +17,8 @@
     "prefix": true,
     "speed": 60,
     "lines": [
-      "        ",
-      "        ",
+      "",
+      "",
       "cat [green]bio[/green].txt"
     ]
   },
@@ -37,8 +37,8 @@
     "prefix": true,
     "speed": 60,
     "lines": [
-      "        ",
-      "        ",
+      "",
+      "",
       "cat [blue]contact[/blue].txt"
     ]
   },
@@ -56,8 +56,8 @@
     "minScreenWidth": 768,
     "speed": 60,
     "lines": [
-      "        ",
-      "        ",
+      "",
+      "",
       "./png_to_ascii.sh [green]picture[/green].png"
     ]
   }, 
@@ -109,8 +109,8 @@
     "prefix": true,
     "speed": 60,
     "lines": [
-      "        ",
-      "        ",
+      "",
+      "",
       "cat [blue]credits[/blue].txt"
     ]
   },
@@ -119,8 +119,8 @@
     "prefix": true,
     "speed": 60,
     "lines": [
-      "        ",
-      "        ",
+      "",
+      "",
       "cat [green]credits[/green].txt"
     ]
   },
