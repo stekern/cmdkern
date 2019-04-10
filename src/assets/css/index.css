@@ -1,10 +1,12 @@
+/* Background pattern from Toptal Subtle Patterns: https://www.toptal.com/designers/subtlepatterns/stardust */
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient( rgba(40, 44, 52, 0.4), rgba(40, 44, 52, 0.4) ), url('../img/background.png');
+  background: linear-gradient(rgba(40, 44, 52, 0.4), rgba(40, 44, 52, 0.4)),
+    url('../img/background.png');
   background-color: #282c34;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +23,7 @@ a {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }
 
 .terminal {
@@ -72,20 +74,20 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-	width: 8px;
-	background-color: #F5F5F5;
+  width: 8px;
+  background-color: #f5f5f5;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
 }
 
 @media (min-width: 1281px) and (max-width: 1500px) {
@@ -116,7 +118,7 @@ a {
   .app {
     width: 90%;
   }
-  
+
   .terminal {
     font-size: 0.9em;
   }
