@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ekern
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ekern.me
+  * I am ekern (https://keybase.io/ekern) on keybase.
+  * I have a public key ASBloc-1QILBZN6QLwVCh6VmKOqLzjhMz4GKhAN5ja9UcQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120881179614fd563983dfd8ea60681049a92848cd7266861427625e9e644f17ead0a",
+      "host": "keybase.io",
+      "kid": "012065a1cfb54082c164de902f054287a56628ea8bce384ccf818a8403798daf54710a",
+      "uid": "d86dd431258355a108e051e4d8787419",
+      "username": "ekern"
+    },
+    "merkle_root": {
+      "ctime": 1554884666,
+      "hash": "fbbb1a1bd5cbe82d86f2b47995ffd7425351d5d3143d01fee9c56e6879f269d83be4c5f0179980697860684150146a7f8943f3a223c3eba42ab26bfcbd45a38c",
+      "hash_meta": "c4ce4c93db719bf5824a9b2a721631a4e8dba82754ed193d720a0f33a3ece911",
+      "seqno": 5132777
+    },
+    "service": {
+      "entropy": "mAujM7f54FuGfd6m8Ui+w93q",
+      "hostname": "ekern.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554884696,
+  "expire_in": 504576000,
+  "prev": "37966a57e1c8dd3d03aed1b0bc4cd3d169aba3ff6085d76bc48e9529d8741718",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZaHPtUCCwWTekC8FQoelZijqi844TM+BioQDeY2vVHEKp3BheWxvYWTESpcCDsQgN5ZqV+HI3T0DrtGwvEzT0Wmro/9ghddrxI6VKdh0FxjEILIAF+UylKpiDNtH/KmlndNdSuK3BpeMGFpCWCPAaPwoAgHCo3NpZ8RA/1EmD1EoMi6O8vyVBNrriaNW5Smsc87jRQWjqWBQSi4VtJu0ljH+65OfXJME/H5cSzowUnysdUBRVz4lMN5hDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPV9bRP/olne59DjqKJvvkk8ghaYupdb0Z0OJkivtle4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ekern
+
+==================================================================
