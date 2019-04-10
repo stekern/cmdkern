@@ -1,5 +1,6 @@
 [
   {
+    "cursor": false,
     "minScreenWidth": 768,
     "speed": 40,
     "lines": [
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "cursor": false,
     "maxScreenWidth": 767,
     "speed": 40,
     "lines": [
@@ -19,18 +21,17 @@
     "lines": [
       "",
       "",
-      "cat [green]bio[/green].txt"
+      "open [green]bio[/green].txt"
     ]
   },
   {
     "speed": 15,
     "cursor": false,
     "lines": [
-      "Hi 🔥🤙🏼🤙🏼",
+      "Hey!",
       "My name is [bold]Erlend Gjesteland Ekern[/bold].", 
-      "I like [bold]technology. And music. And beer! And traveling ... and a lot of other stuff[/bold].",
-      "I currently study [bold]Computer Science[/bold] at the Norwegian University of Science and Technology.", 
-      "I am majoring in [bold]Artificial Intelligence[/bold] 🤖, and I will conclude my studies in 2019."
+      "I like using [bold]technology[/bold] to solve problems.",
+      "I am majoring in [bold]Artificial Intelligence[/bold] 🤖, and I will conclude my studies at the Norwegian University of Science and Technology in 2019."
     ]
   },
   {
@@ -39,7 +40,7 @@
     "lines": [
       "",
       "",
-      "cat [blue]contact[/blue].txt"
+      "open [blue]contact[/blue].txt"
     ]
   },
   {
@@ -48,6 +49,7 @@
     "lines": [
       "Email: [email]erlend@ekern.me[/email]",
       "GitHub: [url]https://www.github.com/stekern[/url]",
+      "Keybase: [url]https://keybase.io/ekern[/url]",
       "LinkedIn: [url]https://www.linkedin.com/in/erlendekern[/url]"
     ]
   },
@@ -102,34 +104,6 @@
       "MMMMMNmdyo/:---.......`.`````-NNNNmyys:-.-/dhhdNNNNNm....-..-...`...````...",
       "MMMMd+----...............```..dNNddNm+-..-/oNNNNMMMMN-.-...........`````...",
       "MMMM+-....................``..hNNNNNh/-`-+/:NNMMMMMMN/..............`````.."
-    ]
-  },
-  {
-    "minScreenWidth": 768,
-    "prefix": true,
-    "speed": 60,
-    "lines": [
-      "",
-      "",
-      "cat [blue]credits[/blue].txt"
-    ]
-  },
-  {
-    "maxScreenWidth": 767,
-    "prefix": true,
-    "speed": 60,
-    "lines": [
-      "",
-      "",
-      "cat [green]credits[/green].txt"
-    ]
-  },
-  {
-    "cursor": false,
-    "speed": 15,
-    "lines": [
-      "Background: [url]https://subtlepatterns.com/stardust[/url]",
-      "GitHub logo: [url]https://github.com/tholman/github-corners[/url]"
     ]
   }
 ]
