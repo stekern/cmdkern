@@ -1,42 +1,25 @@
 [
   {
-    "cursor": false,
-    "minScreenWidth": 768,
-    "speed": 40,
-    "lines": [
-      "Press <ENTER> to speed up the animations"
-    ]
-  },
-  {
-    "cursor": false,
-    "maxScreenWidth": 767,
-    "speed": 40,
-    "lines": [
-      "Tap the screen to speed up the animations"
-    ]
-  },
-  {
     "prefix": true,
-    "speed": 60,
+    "speed": 35,
     "lines": [
-      "",
-      "",
       "open [green]bio[/green].txt"
     ]
   },
   {
-    "speed": 15,
+    "speed": 8,
     "cursor": false,
     "lines": [
-      "Hey!",
+      "Hey! 👋",
       "My name is [bold]Erlend Gjesteland Ekern[/bold].", 
       "I like using [bold]technology[/bold] to solve problems.",
-      "I am majoring in [bold]Artificial Intelligence[/bold] 🤖, and I will conclude my studies at the Norwegian University of Science and Technology in 2019."
+      "Current main areas of interest are [bold]cloud[/bold], [bold]DevOps[/bold], [bold]AI[/bold] and [bold]full-stack web development[/bold].",
+      "I obtained my M.Sc. in [bold]Computer Science (specialization: Artificial Intelligence)[/bold] from the Norwegian University of Science and Technology in 2019."
     ]
   },
   {
     "prefix": true,
-    "speed": 60,
+    "speed": 35,
     "lines": [
       "",
       "",
@@ -45,18 +28,20 @@
   },
   {
     "cursor": false,
-    "speed": 20,
+    "speed": 8,
     "lines": [
       "Email: [email]erlend@ekern.me[/email]",
-      "GitHub: [url]https://www.github.com/stekern[/url]",
-      "Keybase: [url]https://keybase.io/ekern[/url]",
-      "LinkedIn: [url]https://www.linkedin.com/in/erlendekern[/url]"
+      "LinkedIn: [url]https://linkedin.com/in/erlendekern[/url]",
+      "Twitter: [url]https://twitter.com/erlendekern[/url]",
+      "---",
+      "GitHub: [url]https://github.com/stekern[/url]",
+      "Keybase: [url]https://keybase.io/ekern[/url]"
     ]
   },
   {
     "prefix": true,
     "minScreenWidth": 768,
-    "speed": 60,
+    "speed": 35,
     "lines": [
       "",
       "",
