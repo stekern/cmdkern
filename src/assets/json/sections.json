@@ -17,11 +17,10 @@
     "showCursor": false,
     "lines": [
       "[green]-----[/green]",
-      "Hey! 👋",
-      "My name is [bold]Erlend Gjesteland Ekern[/bold].",
-      "I like using [bold]technology[/bold] to solve problems.",
-      "Current main areas of interest are [bold]cloud ☁️[/bold], [bold]DevOps 👷[/bold], [bold]AI 🤖[/bold] and [bold]full-stack web development 👨‍💻[/bold].",
-      "I obtained my M.Sc. in [bold]Computer Science (specialization: Artificial Intelligence)[/bold] from the Norwegian University of Science and Technology in 2019."
+      "Hey 👋 I'm [bold]Erlend[/bold].",
+      "I'm currently working at Capra Consulting as an [bold]infrastructure engineer[/bold].",
+      "I have a wide span of technical interests -- currently focused on [bold]cloud ☁️[/bold], [bold]DevOps 👷[/bold], [bold]AI 🤖[/bold] and [bold]full-stack web development 💻[/bold].",
+      "I obtained my M.Sc. in [bold]Computer Science[/bold] with a specialization in [bold]Artificial Intelligence[/bold] from the Norwegian University of Science and Technology in 2019."
     ],
     "showPrompt": false
   },
