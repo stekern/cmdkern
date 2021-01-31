@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Tech-oriented Norwegian with interests in cloud, DevOps and AI (and also some non-buzzwordy stuff)." />
     <meta name="author" content="Erlend G. Ekern" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index,follow">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -17,7 +17,10 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Erlend G. Ekern" />
     <meta property="og:description" content="Tech-oriented Norwegian with interests in cloud, DevOps and AI (... and also some non-buzzwordy stuff)." />
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Erlend G. Ekern</title>
     <!-- Google Analytics -->
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -26,12 +29,24 @@
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
-    <title>Erlend G. Ekern</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
+    <div id="main">
+      <div id="menubar">
+        <div id="menubar__buttons">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h1>ekern.me</h1>
+      </div>
+      <div id="terminal">
+        <noscript>
+          <p>This website requires JavaScript ...</p>
+          <span class="cursor"></span>
+        </noscript>
+      </div>
+    </div>
   </body>
 </html>
+
