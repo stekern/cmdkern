@@ -1,0 +1,165 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
+html {
+    height: 100%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(12, 11, 12, 0.7)),
+    url('background.d969c921.png');
+}
+
+.cursor {
+  animation: blink 1s linear infinite;
+}
+
+.cursor:before {
+  display: inline-block; /* Needed to avoid cursor unnecessarily wrapping words while typewriting */
+  background-color: white;
+  content: "\00a0";
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  49% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 60%;
+}
+
+#menubar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.6em;
+  padding: 10px;
+  background-color: rgba(68,68,68);
+  border-bottom: 0.5px solid black;
+  border-radius: 5px 5px 0 0;
+  color: rgb(180, 180, 190);
+}
+
+#menubar__buttons {
+  position: absolute;
+  left: 0;
+  display: flex;
+  padding-left: 7px;
+}
+
+#menubar__buttons > :nth-child(1) {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(236,101,89);
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#menubar__buttons > :nth-child(2) {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(224,192,76);
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+#menubar__buttons > :nth-child(3) {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(113,190,71);
+  border-radius: 50%;
+}
+
+#menubar > h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  font-size: 0.8em;
+}
+
+#terminal {
+  font-family: 'Fira Code VF', monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19, 29, 37);
+  height: 65vh;
+  padding: 10px;
+  font-size: 0.9em;
+  font-weight: 350;
+  overflow-y: auto;
+  border-radius: 0 0 5px 5px;
+  color: rgb(166, 175, 184);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+strong {
+  font-weight: 650;
+}
+
+a {
+  color: rgb(51, 145, 255);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+
+/* Media queries */
+@media (min-width: 1281px) and (max-width: 1500px) {
+  #main {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #main {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #main {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #main {
+    width: 95%;
+  }
+
+  #terminal {
+    font-size: 0.8em;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  #main {
+    width: 95%;
+  }
+
+  #terminal {
+    font-size: 0.75em;
+    height: 80vh;
+  }
+}
+
+/*# sourceMappingURL=style.87a985fb.css.map */
