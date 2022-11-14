@@ -1,15 +1,11 @@
 [
   {
-    "lines": [
-      "open [green]bio[/green].txt"
-    ]
+    "lines": ["open [green]bio[/green].txt"]
   },
   {
     "endDelay": 750,
     "showPrompt": false,
-    "lines": [
-      " "
-    ]
+    "lines": [" "]
   },
   {
     "charDelay": 7,
@@ -18,30 +14,22 @@
     "lines": [
       "[green]-----[/green]",
       "Hey 👋 I'm [bold]Erlend[/bold].",
-      "I'm currently working at Capra Consulting as an [bold]infrastructure engineer[/bold].",
-      "I have a wide span of technical interests -- currently focused on [bold]cloud ☁️[/bold], [bold]DevOps 👷[/bold], [bold]AI 🤖[/bold] and [bold]full-stack web development 💻[/bold].",
-      "I obtained my M.Sc. in [bold]Computer Science[/bold] with a specialization in [bold]Artificial Intelligence[/bold] from the Norwegian University of Science and Technology in 2019."
+      "I have a wide span of technical interests, experience and expertise, but technology wise I'm currently mostly focused on [bold]Amazon Web Services (AWS)[/bold], [bold]serverless[/bold] and [bold]platform engineering[/bold] 👷",
+      "... With that said, technology is just a side effect. I first and foremost enjoy solving problems, helping people and creating value."
     ],
     "showPrompt": false
   },
   {
     "showPrompt": false,
-    "lines": [
-      "",
-      ""
-    ]
+    "lines": ["", ""]
   },
   {
-    "lines": [
-      "open [red]contact[/red].txt"
-    ]
+    "lines": ["open [red]contact[/red].txt"]
   },
   {
     "endDelay": 750,
     "showPrompt": false,
-    "lines": [
-      " "
-    ]
+    "lines": [" "]
   },
   {
     "showPrompt": false,
@@ -51,33 +39,26 @@
     "lines": [
       "[red]-----[/red]",
       "Email: [email]erlend@ekern.me[/email]",
-      "LinkedIn: [url]https://linkedin.com/in/erlendekern[/url]",
-      "Twitter: [url]https://twitter.com/erlendekern[/url]",
       "GitHub: [url]https://github.com/stekern[/url]",
-      "Keybase: [url]https://keybase.io/ekern[/url]"
+      "Twitter: [url]https://twitter.com/erlendekern[/url]",
+      "Keybase: [url]https://keybase.io/ekern[/url]",
+      "LinkedIn: [url]https://linkedin.com/in/erlendekern[/url]"
     ]
   },
   {
     "showPrompt": false,
     "minScreenWidth": 768,
-    "lines": [
-      "",
-      ""
-    ]
+    "lines": ["", ""]
   },
   {
     "minScreenWidth": 768,
-    "lines": [
-      "./png_to_ascii.sh [green]picture[/green].png"
-    ]
+    "lines": ["./png_to_ascii.sh [green]picture[/green].png"]
   },
   {
     "minScreenWidth": 768,
     "endDelay": 750,
     "showPrompt": false,
-    "lines": [
-      " "
-    ]
+    "lines": [" "]
   },
   {
     "minScreenWidth": 768,
