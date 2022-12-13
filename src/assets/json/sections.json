@@ -14,8 +14,8 @@
     "lines": [
       "[green]-----[/green]",
       "Hey 👋 I'm [bold]Erlend[/bold].",
-      "I have a wide span of technical interests, experience and expertise, but technology wise I'm currently mostly focused on [bold]Amazon Web Services (AWS)[/bold], [bold]serverless[/bold] and [bold]platform engineering[/bold] 👷",
-      "... With that said, technology is just a side effect. I first and foremost enjoy solving problems, helping people and creating value."
+      "I have a wide span of technical interests, experience and expertise, but technology wise I'm mostly focused on [bold]Amazon Web Services (AWS)[/bold], [bold]serverless[/bold] and [bold]platform engineering[/bold] 👷",
+      "... With that said, technology is \"just\" an implementation detail. I first and foremost appreciate the capabilities it unlocks to solve problems, help people and create value."
     ],
     "showPrompt": false
   },
