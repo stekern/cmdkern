@@ -4,8 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "rm -rf ./dist/* && parcel build src/index.html",
+    "start": "vite",
+    "build": "vite build",
     "predeploy": "npm run build && echo 'www.ekern.me' > ./dist/CNAME && cp ./src/assets/misc/keybase.txt dist/keybase.txt",
     "deploy": "gh-pages -d dist"
   },
@@ -13,13 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "7.2.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "3.4.1",
-    "gh-pages": "3.2.3",
-    "parcel": "2.8.0",
-    "prettier": "2.7.1"
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "gh-pages": "6.0.0",
+    "vite": "4.4.11"
   }
 }
