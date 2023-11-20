@@ -12,10 +12,9 @@
     "endDelay": 150,
     "showCursor": false,
     "lines": [
-      "[green]-----[/green]",
-      "Hey 👋 I'm [bold]Erlend[/bold].",
-      "I have a wide span of technical interests, experience and expertise, but technology wise I'm mostly focused on [bold]Amazon Web Services (AWS)[/bold], [bold]serverless[/bold] and [bold]platform engineering[/bold] 👷",
-      "... With that said, technology is \"just\" an implementation detail. I first and foremost appreciate the capabilities it unlocks to solve problems, help people and create value."
+      "Hey 👋 I'm [bold]Erlend Ekern[/bold].",
+      "I'm a [bold]cloud architect[/bold] with a wide span of technical interests, experience and expertise, and I'm especially passionate about being a force multiplier for others.",
+      "I'm currently mostly focused on [bold]Amazon Web Services (AWS)[/bold] and building [bold]internal developer platforms[/bold] that enable developers to autonomously solve business problems better, faster and more securely."
     ],
     "showPrompt": false
   },
@@ -37,11 +36,9 @@
     "charDelay": 7,
     "endDelay": 150,
     "lines": [
-      "[red]-----[/red]",
       "Email: [email]erlend@ekern.me[/email]",
       "GitHub: [url]https://github.com/stekern[/url]",
       "Twitter: [url]https://twitter.com/erlendekern[/url]",
-      "Keybase: [url]https://keybase.io/ekern[/url]",
       "LinkedIn: [url]https://linkedin.com/in/erlendekern[/url]"
     ]
   },
@@ -66,7 +63,6 @@
     "charDelay": 0,
     "endDelay": 0,
     "lines": [
-      "[green]-----[/green]",
       "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
       "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
       "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
