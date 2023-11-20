@@ -45,6 +45,8 @@ export const getFormattedText = (line) => {
       const end = getFormattedText(matches[5])
       if (tag === 'bold') {
         formattedLine = `${start}<strong>${mid}</strong>${end}`
+      } else if (tag === 'italic') {
+        formattedLine = `${start}<i>${mid}</i>${end}`
       } else if (tag === 'url') {
         formattedLine = `${start}<a rel="noopener noreferrer" target="_blank" href="${mid}">${mid}</a>${end}`
       } else if (tag === 'email') {
