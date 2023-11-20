@@ -1,6 +1,8 @@
 import { hasTags, getDisplayText, getFormattedText } from './util.js'
 import sections from './assets/json/sections.json'
 
+const PREVIOUS_RUN_DATE_KEY = 'previousRunDate'
+
 // Defaults
 const CHAR_DELAY = 20
 const START_DELAY = 0
@@ -12,11 +14,22 @@ const PROMPT = "<font color='white'><strong>🚀 ~  </strong>"
 
 // On load
 document.addEventListener('DOMContentLoaded', (e) => {
+  const previousRunDate = localStorage.getItem(PREVIOUS_RUN_DATE_KEY)
+  let enableTypewriting = true
+  if (previousRunDate) {
+    if (new Date().getTime() - Date.parse(previousRunDate) < 15 * 60 * 1000) {
+      enableTypewriting = false
+    } else {
+      localStorage.setItem(PREVIOUS_RUN_DATE_KEY, new Date().toISOString())
+    }
+  } else {
+    localStorage.setItem(PREVIOUS_RUN_DATE_KEY, new Date().toISOString())
+  }
   const terminal = document.getElementById('terminal')
   const screenWidth = window.innerWidth
   const formattedLines = sections
     .filter(
-      (section) => screenWidth >= (section.minScreenWidth ?? MIN_SCREEN_WIDTH)
+      (section) => screenWidth >= (section.minScreenWidth ?? MIN_SCREEN_WIDTH),
     )
     .map((section) =>
       section.lines.map((line) => ({
@@ -26,11 +39,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
           line || (section.showPrompt ?? SHOW_PROMPT) ? line : '&nbsp',
         ...(hasTags(line)
           ? {
-              displayText: getDisplayText(line),
-              formattedText: getFormattedText(line),
-            }
+            displayText: getDisplayText(line),
+            formattedText: getFormattedText(line),
+          }
           : {}),
-      }))
+      })),
     )
     .flat(1)
   const writeLine = (i) => {
@@ -53,30 +66,34 @@ document.addEventListener('DOMContentLoaded', (e) => {
           }
           setTimeout(
             () => writeChar(j + 1),
-            formattedLines[i].charDelay ?? CHAR_DELAY
+            formattedLines[i].charDelay ?? CHAR_DELAY,
           )
         } else {
-          setTimeout(() => {
-            if (formattedLines[i].showCursor ?? SHOW_CURSOR) {
-              paragraph.innerHTML = paragraph.innerHTML
-                .replace('<span class="cursor"></span>', '')
-                .replace(
+          setTimeout(
+            () => {
+              if (formattedLines[i].showCursor ?? SHOW_CURSOR) {
+                paragraph.innerHTML = paragraph.innerHTML
+                  .replace('<span class="cursor"></span>', '')
+                  .replace(
+                    formattedLines[i].displayText,
+                    formattedLines[i].formattedText,
+                  )
+              } else {
+                paragraph.innerHTML = paragraph.innerHTML.replace(
                   formattedLines[i].displayText,
-                  formattedLines[i].formattedText
+                  formattedLines[i].formattedText,
                 )
-            } else {
-              paragraph.innerHTML = paragraph.innerHTML.replace(
-                formattedLines[i].displayText,
-                formattedLines[i].formattedText
-              )
-            }
-            writeLine(i + 1)
-          }, (formattedLines[i].startDelay ?? START_DELAY) + (formattedLines[i].endDelay ?? END_DELAY))
+              }
+              writeLine(i + 1)
+            },
+            (formattedLines[i].startDelay ?? START_DELAY) +
+            (formattedLines[i].endDelay ?? END_DELAY),
+          )
         }
       }
       if (
-        formattedLines[i].endDelay === 0 &&
-        formattedLines[i].charDelay === 0
+        !enableTypewriting ||
+        (formattedLines[i].endDelay === 0 && formattedLines[i].charDelay === 0)
       ) {
         paragraph.innerHTML =
           paragraph.innerHTML + formattedLines[i].formattedText
