@@ -1,10 +1,10 @@
 {
   "name": "cmdkern",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build && echo 'www.ekern.me' > ./dist/CNAME && cp ./src/assets/misc/keybase.txt dist/keybase.txt",
     "deploy": "gh-pages -d dist"
@@ -13,10 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "8.50.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-prettier": "5.0.0",
-    "gh-pages": "6.0.0",
-    "vite": "4.4.11"
+    "@biomejs/biome": "1.9.4",
+    "gh-pages": "6.3.0",
+    "vite": "6.1.0"
   }
 }

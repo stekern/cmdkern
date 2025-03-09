@@ -1,7 +1,7 @@
-import { hasTags, getDisplayText, getFormattedText } from './util.js'
-import sections from './assets/json/sections.json'
+import sections from "./assets/json/sections.json"
+import { getDisplayText, getFormattedText, hasTags } from "./util.js"
 
-const PREVIOUS_RUN_DATE_KEY = 'previousRunDate'
+const PREVIOUS_RUN_DATE_KEY = "previousRunDate"
 
 // Defaults
 const CHAR_DELAY = 20
@@ -13,7 +13,7 @@ const MIN_SCREEN_WIDTH = Number.NEGATIVE_INFINITY
 const PROMPT = "<font color='white'><strong>🚀 ~  </strong>"
 
 // On load
-document.addEventListener('DOMContentLoaded', (e) => {
+document.addEventListener("DOMContentLoaded", (e) => {
   const previousRunDate = localStorage.getItem(PREVIOUS_RUN_DATE_KEY)
   let enableTypewriting = true
   if (previousRunDate) {
@@ -25,44 +25,43 @@ document.addEventListener('DOMContentLoaded', (e) => {
   } else {
     localStorage.setItem(PREVIOUS_RUN_DATE_KEY, new Date().toISOString())
   }
-  const terminal = document.getElementById('terminal')
+  const terminal = document.getElementById("terminal")
   const screenWidth = window.innerWidth
   const formattedLines = sections
     .filter(
       (section) => screenWidth >= (section.minScreenWidth ?? MIN_SCREEN_WIDTH),
     )
-    .map((section) =>
+    .flatMap((section) =>
       section.lines.map((line) => ({
         ...section,
         displayText: line,
         formattedText:
-          line || (section.showPrompt ?? SHOW_PROMPT) ? line : '&nbsp',
+          line || (section.showPrompt ?? SHOW_PROMPT) ? line : "&nbsp",
         ...(hasTags(line)
           ? {
-            displayText: getDisplayText(line),
-            formattedText: getFormattedText(line),
-          }
+              displayText: getDisplayText(line),
+              formattedText: getFormattedText(line),
+            }
           : {}),
       })),
     )
-    .flat(1)
   const writeLine = (i) => {
     if (formattedLines[i]) {
-      const paragraph = document.createElement('p')
+      const paragraph = document.createElement("p")
       paragraph.innerHTML =
-        formattedLines[i].showPrompt ?? SHOW_PROMPT
-          ? formattedLines[i].prompt ?? PROMPT
-          : ''
+        (formattedLines[i].showPrompt ?? SHOW_PROMPT)
+          ? (formattedLines[i].prompt ?? PROMPT)
+          : ""
       terminal.appendChild(paragraph)
       const writeChar = (j) => {
         if (formattedLines[i].displayText[j] || j === 0) {
           if (formattedLines[i].showCursor ?? SHOW_CURSOR) {
-            paragraph.innerHTML =
-              paragraph.innerHTML.replace('<span class="cursor"></span>', '') +
-              (formattedLines[i].displayText[j] || '') +
-              '<span class="cursor"></span>'
+            paragraph.innerHTML = `${
+              paragraph.innerHTML.replace('<span class="cursor"></span>', "") +
+              (formattedLines[i].displayText[j] || "")
+            }<span class="cursor"></span>`
           } else {
-            paragraph.innerHTML += formattedLines[i].displayText[j] || ''
+            paragraph.innerHTML += formattedLines[i].displayText[j] || ""
           }
           setTimeout(
             () => writeChar(j + 1),
@@ -73,7 +72,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
             () => {
               if (formattedLines[i].showCursor ?? SHOW_CURSOR) {
                 paragraph.innerHTML = paragraph.innerHTML
-                  .replace('<span class="cursor"></span>', '')
+                  .replace('<span class="cursor"></span>', "")
                   .replace(
                     formattedLines[i].displayText,
                     formattedLines[i].formattedText,
@@ -87,7 +86,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
               writeLine(i + 1)
             },
             (formattedLines[i].startDelay ?? START_DELAY) +
-            (formattedLines[i].endDelay ?? END_DELAY),
+              (formattedLines[i].endDelay ?? END_DELAY),
           )
         }
       }
