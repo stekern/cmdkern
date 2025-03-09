@@ -7,13 +7,20 @@
   --terminal-text-color: rgb(166, 175, 184);
 }
 
-html {
+html,
+body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(12, 11, 12, 0.7)),
-    url('assets/img/background.png');
+    url("assets/img/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .cursor {
@@ -23,7 +30,7 @@ body {
 .cursor:before {
   display: inline-block; /* Needed to avoid cursor unnecessarily wrapping words while typewriting */
   background-color: white;
-  content: '\00a0';
+  content: "\00a0";
 }
 
 @keyframes blink {
@@ -95,12 +102,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 500;
-  font-family:
-    Lucida Grande,
-    Lucida Sans Unicode,
-    Lucida Sans,
-    Geneva,
-    Verdana,
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
     sans-serif;
   font-size: 0.8em;
 }
@@ -110,12 +112,7 @@ body {
   display: flex;
   width: 100%;
   counter-reset: number;
-  font-family:
-    Lucida Grande,
-    Lucida Sans Unicode,
-    Lucida Sans,
-    Geneva,
-    Verdana,
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
     sans-serif;
   border-bottom: 1px solid black;
 }
@@ -148,7 +145,7 @@ body {
 }
 
 #terminal {
-  font-family: 'Fira Code VF', monospace;
+  font-family: "Fira Code VF", monospace;
   display: flex;
   flex-direction: column;
   background-color: var(--terminal-bg-color);
@@ -204,21 +201,23 @@ p {
 @media (min-width: 481px) and (max-width: 767px) {
   #main {
     width: 95%;
+    margin-top: 3%;
   }
 
   #terminal {
     font-size: 0.8em;
-    height: 80vh;
+    height: 70vh;
   }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
   #main {
     width: 95%;
+    margin-top: 5%;
   }
 
   #terminal {
     font-size: 0.75em;
-    height: 80vh;
+    height: 65vh;
   }
 }
